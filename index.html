@@ -2,24 +2,63 @@
 <head>
     <title>Coltivare</title>
     <style>
-        body {margin: 0; font-family: Calibri}
-        h1 {text-align: left; padding: 10px 20px; font-family: "Arial Black"; font-size: 36px; color: black}
-        h2 {text-align: left; padding: 10px 20px; font-family: "Arial Black"; font-size: 20px; color: green; border-bottom: 3px solid black}
-        
+        body {
+            margin: 0; 
+            font-family: Calibri;
+        }
+
+        /* Header styles */
+        h1 { 
+            text-align: left;          /* Align text left */
+            padding: 10px 20px;        /* Push text in from edges */
+            font-family: "Arial Black";
+            font-size: 36px; 
+            color: black;
+            margin-bottom: 0;          /* Remove extra space below */
+        }
+
+        h2.header-subtitle {          /* Custom class so this h2 only affects subtitle */
+            text-align: left;
+            padding: 0 20px;           /* Slightly smaller padding */
+            font-family: "Arial Black";
+            font-size: 20px; 
+            color: green;
+            margin-top: 0;             /* Removes space above */
+        }
+
+        hr {
+            border: none;
+            height: 3px;
+            background-color: black;   /* Solid black line */
+            margin: 10px 0 30px 0;     /* Space above/below */
+        }
+
+        /* Section title for Services Offered */
+        .section-title {
+            text-align: center; 
+            font-size: 28px;
+            font-weight: bold;
+            margin-bottom: 20px;
+        }
+
+        /* Main content area */
         .content {
-            max-width: 800px;   /* keeps content from stretching too wide */
-            margin: 20px auto;  /* centers content horizontally */
+            max-width: 800px;          /* keeps content from stretching too wide */
+            margin: 20px auto;         /* centers content horizontally */
             padding: 0 20px;
         }
     </style>
 </head>
 <body>
-    <div class="h1">
-        Coltivare
-    </div>
-     <div class="h2">
-         Farm Innovation
-    </div>
+    <!-- Page Header -->
+    <h1>Coltivare</h1>             <!-- Top word -->
+    <h2 class="header-subtitle">Farm Innovation</h2> <!-- Subtitle directly under -->
+
+    <!-- Black line under header -->
+    <hr>
+
+    <!-- Centered Services Offered -->
+    <div class="section-title">Services Offered</div>
 
     <!-- Main page content -->
     <div class="content">
