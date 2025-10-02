@@ -2,106 +2,23 @@
 <html>
 <head>
     <title>Coltivare</title>
-    <style>
-        body {
-            margin: 0;
-            font-family: Calibri, sans-serif;
-            line-height: 1.5;
-        }
-
-        /* Header */
-        h1 {
-            margin: 10px 20px 0 20px;
-            font-family: "Arial Black";
-            font-size: 28px;
-            color: black;
-        }
-        h2.header-subtitle {
-            margin: 0 20px 5px 20px;
-            font-family: "Arial Black";
-            font-size: 18px;
-            color: green;
-        }
-
-        hr {
-            border: none;
-            height: 2px;
-            background-color: black;
-            margin: 5px 0 20px 0;
-        }
-
-        /* Layout: sidebar + main content */
-        .container {
-            display: flex;
-            max-width: 1000px;
-            margin: 0 auto;
-            padding: 0 20px;
-        }
-
-        /* Sidebar navigation */
-        .sidebar {
-            width: 180px;
-            padding-right: 20px;
-        }
-        .sidebar p {
-            margin: 10px 0;
-        }
-
-        /* Main content */
-        .main {
-            flex: 1;
-        }
-
-        .section-title {
-            text-align: center;
-            font-size: 22px;
-            font-weight: bold;
-            margin: 20px 0;
-        }
-
-        .intro {
-            display: flex;
-            align-items: flex-start;
-            gap: 20px;
-            margin-bottom: 30px;
-        }
-        .intro img {
-            max-width: 300px;
-        }
-        .intro-text {
-            flex: 1;
-        }
-
-        .services-list {
-            margin: 20px 0;
-            padding-left: 40px;
-        }
-
-        .content-section {
-            margin-bottom: 30px;
-        }
-
-        /* Footer */
-        footer {
-            margin-top: 40px;
-            border-top: 2px solid black;
-            padding: 10px 20px;
-            font-size: 14px;
-        }
-    </style>
 </head>
-<body>
+<body style="margin:0; font-family: Calibri; line-height:1.5;">
 
     <!-- Header -->
-    <h1>Coltivare</h1>
-    <h2 class="header-subtitle">Farm Innovation</h2>
-    <hr>
+    <h1 style="margin:10px 20px 0 20px; font-family:Arial Black; font-size:28px; color:black;">
+        Coltivare
+    </h1>
+    <h2 style="margin:0 20px 5px 20px; font-family:Arial Black; font-size:18px; color:green;">
+        Farm Innovation
+    </h2>
+    <hr style="border:none; height:2px; background-color:black; margin:5px 0 20px 0;">
 
-    <!-- Page content -->
-    <div class="container">
+    <!-- Page Layout -->
+    <div style="display:flex; max-width:1000px; margin:0 auto; padding:0 20px;">
 
         <!-- Sidebar -->
-        <div class="sidebar">
+        <div style="width:180px; padding-right:20px;">
             <p>Team Information</p>
             <p>About Us</p>
             <p>Meet the Team</p>
@@ -110,24 +27,27 @@
             <p>Customer Testimonials</p>
         </div>
 
-        <!-- Main content -->
-        <div class="main">
+        <!-- Main Content -->
+        <div style="flex:1;">
 
-            <div class="section-title">Services Offered</div>
+            <div style="text-align:center; font-size:22px; font-weight:bold; margin:20px 0;">
+                Services Offered
+            </div>
 
-            <!-- Intro row with image + description -->
-            <div class="intro">
-                <img src="https://upload.wikimedia.org/wikipedia/commons/6/6d/Farm_field.jpg" alt="Farm field">
-                <div class="intro-text">
+            <!-- Intro section -->
+            <div style="display:flex; align-items:flex-start; gap:20px; margin-bottom:30px;">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/6/6d/Farm_field.jpg" alt="Farm field" style="max-width:300px;">
+                <div>
                     Coltivare is proud to provide innovative farm management software
                     that helps farmers save time, reduce costs, and improve yields.
                     Our platforms paired with the use of our premium product line will
-                    make your farming more efficient and profitable.
+                    make your farming more <font style="font-weight:bold;">efficient</font> and 
+                    <font style="color:green; font-style:italic;">profitable</font>.
                 </div>
             </div>
 
-            <!-- Services list -->
-            <ol class="services-list">
+            <!-- Services List -->
+            <ol style="margin:20px 0; padding-left:40px;">
                 <li>Cost Tracking</li>
                 <li>Yield Analysis</li>
                 <li>Field Mapping</li>
@@ -135,31 +55,31 @@
             </ol>
 
             <!-- Detailed Services -->
-            <div class="content-section">
-                <h3>Our Farm Management Services:</h3>
+            <div style="margin-bottom:30px;">
+                <h3 style="margin-bottom:10px;">Our Farm Management Services:</h3>
 
-                <p><b>Cost Tracking</b> – Easily monitor every expense, from seed to harvest. Coltivare helps you track input costs in real time so you can see exactly where your money is going and make smarter financial decisions.</p>
+                <p><font style="font-weight:bold;">Cost Tracking</font> – Easily monitor every expense, from seed to harvest. Coltivare helps you track input costs in real time so you can see exactly where your money is going and make smarter financial decisions.</p>
 
-                <p><b>Yield Analysis</b> – Turn field data into insights. Our tools break down yields by crop, field, or season so you can identify what's working, spot patterns, and maximize productivity year after year.</p>
+                <p><font style="font-weight:bold;">Yield Analysis</font> – Turn field data into insights. Our tools break down yields by crop, field, or season so you can identify what's working, spot patterns, and maximize productivity year after year.</p>
 
-                <p><b>Field Mapping</b> – Visualize your farm like never before. With detailed field maps, you can track soil conditions, crop performance, and resource use to plan with precision and efficiency.</p>
+                <p><font style="font-weight:bold;">Field Mapping</font> – Visualize your farm like never before. With detailed field maps, you can track soil conditions, crop performance, and resource use to plan with precision and efficiency.</p>
 
-                <p><b>Sustainability & Growth Planning</b> – We go beyond short-term gains. Our team partners with you to design long-term strategies that balance profitability with soil health, resource management, and sustainable farming practices.</p>
+                <p><font style="font-weight:bold;">Sustainability & Growth Planning</font> – We go beyond short-term gains. Our team partners with you to design long-term strategies that balance profitability with soil health, resource management, and sustainable farming practices.</p>
             </div>
 
             <!-- Why Choose Coltivare -->
-            <div class="content-section">
+            <div style="margin-bottom:30px;">
                 <h3>Why Choose Coltivare?</h3>
                 <ul>
-                    <li><b>Expert Guidance:</b> Our team combines farming know-how with modern technology to deliver practical solutions that actually work in the field.</li>
-                    <li><b>Data-Driven Decisions:</b> We turn raw numbers into clear insights, helping you improve efficiency, cut costs, and boost yields.</li>
-                    <li><b>Future-Focused:</b> From profitability to sustainability, we help you build a farm operation that thrives today and tomorrow.</li>
+                    <li><font style="font-weight:bold;">Expert Guidance:</font> Our team combines farming know-how with modern technology to deliver practical solutions that actually work in the field.</li>
+                    <li><font style="font-weight:bold;">Data-Driven Decisions:</font> We turn raw numbers into clear insights, helping you improve efficiency, cut costs, and boost yields.</li>
+                    <li><font style="font-weight:bold;">Future-Focused:</font> From profitability to sustainability, we help you build a farm operation that thrives today and tomorrow.</li>
                 </ul>
                 <p><i>(Farmer consulting pic)</i></p>
             </div>
 
             <!-- Resources -->
-            <div class="content-section">
+            <div style="margin-bottom:30px;">
                 <h3>Additional Resources:</h3>
                 <p>Learn more about crop yield analysis @ Purdue University Extension</p>
                 <p>Contact our team so we can start improving your farm operation today (email)</p>
@@ -169,7 +89,7 @@
     </div>
 
     <!-- Footer -->
-    <footer>
+    <footer style="margin-top:40px; border-top:2px solid black; padding:10px 20px; font-size:14px;">
         Date last modified: <script>document.write(new Date().toLocaleDateString());</script>
     </footer>
 
