@@ -2,57 +2,79 @@
 <head>
     <title>Coltivare</title>
     <style>
-        body { margin: 20px; font-family: Calibri}
-        h1 {font-family: "Arial Black"; font-size: 36px; color: black}
-        h2 {font-family: "Arial Black";font-size: 20px; color: green}
-        h1, h2 {line-height: .1}
-        h3 {font-family: "Arial Black";font-size: 26px; color: black}
-        .highlight {background-color: yellow}
-        .note {color: green; font-style: italic}
-        .brown-text {color: brown; font-size: 18px}
-        .purple-text {color: purple;font-size: 16px}
+        body {
+            margin: 0; 
+            font-family: Calibri, sans-serif;
+        }
+        /* Header at top-left */
+        .header {
+            text-align: left;
+            padding: 10px 20px; /* space around text */
+            font-family: "Arial Black", Arial, sans-serif;
+            font-size: 28px;
+            color: black;
+            border-bottom: 3px solid black; /* horizontal line */
+        }
+        /* Main content centered */
+        .content {
+            max-width: 800px;   /* keeps content from stretching too wide */
+            margin: 20px auto;  /* centers content horizontally */
+            padding: 0 20px;
+        }
     </style>
 </head>
 <body>
 
-    <h1>Coltivare</h1>
-    <h2>Farm Innovation</h2>
+    <!-- Header section -->
+    <div class="header">
+        Coltivare Farm Innovation
+    </div>
 
-    <p><b>Coltivare</b> is proud to provide innovative <u>farm management software</u> that helps farmers save time, reduce costs, and improve yields. 
-    Our platform makes farming more <span class="highlight">efficient</span> and <span class="note">profitable</span>.</p>
+    <!-- Main page content -->
+    <div class="content">
+        <h2>Farm Management Services</h2>
+        <p><b>Coltivare</b> is proud to provide innovative 
+        <u>farm management software</u> that helps farmers save time, 
+        reduce costs, and improve yields. 
+        Our platform makes farming more 
+        <span style="background-color: yellow">efficient</span> and 
+        <span style="color: green; font-style: italic">profitable</span>.</p>
 
-    <h3>Key Features</h3>
-    <ul>
-        <li class="brown-text">Cost Tracking – Monitor input costs like seeds, fertilizer, and labor</li>
-        <li class="purple-text">Yield Analysis – Compare crop performance across fields and seasons</li>
-        <li>Field Mapping – Visualize land use with detailed digital maps</li>
-    </ul>
+        <h2>Key Features</h2>
+        <ul>
+            <li style="color: brown; font-size: 18px">Cost Tracking – Monitor input costs like seeds, fertilizer, and labor</li>
+            <li style="color: purple; font-size: 16px">Yield Analysis – Compare crop performance across fields and seasons</li>
+            <li>Field Mapping – Visualize land use with detailed digital maps</li>
+        </ul>
 
-    <h3>Why Choose Coltivare?</h3>
-    <ol>
-        <li>Lower costs with smarter planning</li>
-        <li>Improve productivity and yields</li>
-        <li>Simplify record keeping</li>
-    </ol>
+        <h2>Why Choose Coltivare?</h2>
+        <ol>
+            <li>Lower costs with smarter planning</li>
+            <li>Improve productivity and yields</li>
+            <li>Simplify record keeping</li>
+        </ol>
 
-    <h3>Additional Resources</h3>
-    <p>Learn more about sustainable agriculture from this external site: 
-        <a href="https://www.fao.org" target="_blank">FAO – Food and Agriculture Organization</a>.
-    </p>
+        <h2>Additional Resources</h2>
+        <p>Learn more about sustainable agriculture from this external site: 
+            <a href="https://www.fao.org" target="_blank">FAO – Food and Agriculture Organization</a>.
+        </p>
 
-    <p>Contact the page creator at 
-        <a href="mailto:coltivare.services@example.com">coltivare.services@example.com</a>
-    </p>
+        <p>Contact the page creator at 
+            <a href="mailto:coltivare.services@example.com">coltivare.services@example.com</a>
+        </p>
 
-    <p>Download our sample <a href="Coltivare-Brochure.pdf" download>Coltivare Services Brochure (PDF)</a></p>
+        <p>Download our sample 
+            <a href="Coltivare-Brochure.pdf" download>Coltivare Services Brochure (PDF)</a>
+        </p>
 
-    <h3>Image Preview</h3>
-    <img src="https://upload.wikimedia.org/wikipedia/commons/6/6d/Farm_field.jpg" alt="Farm field" width="400">
+        <h2>Image Preview</h2>
+        <img src="https://upload.wikimedia.org/wikipedia/commons/6/6d/Farm_field.jpg" alt="Farm field" width="400">
 
-    <hr>
-    <p><small>Date Last Modified: 
-        <script>document.write(new Date().toLocaleDateString());</script>
-    </small></p>
+        <hr>
+        <p><small>Date Last Modified: 
+            <script>document.write(new Date().toLocaleDateString());</script>
+        </small></p>
+    </div>
 
 </body>
 </html>
